@@ -9,12 +9,27 @@
 </head>
 <body>
 
-	<div class="col-md-6">
-		<div class="col-xs-12">Paste HTML code here</div>
-		<textarea class="col-xs-12" id='intext'></textarea>
-		<button id='parsebutton' class="col-xs-12 btn btn-default" style='background-color:#b19cd9;'>View Text</button>
-	</div>
-	<div class="col-md-6" id='outtext' style='border-style: solid;'></div>
+    <div class="container-fluid">
+
+        <div class="col-md-6">
+            <div>
+                <span >Paste HTML code here</span><span></span>
+                <span><button id='parsebutton'  style='background-color:#b19cd9;'>View Text</button></span>
+            </div>
+
+            <textarea rows="400" cols="90"  id='intext'></textarea>
+
+        </div>
+
+
+        <div class="col-md-6">
+
+
+                <div class="panel-body" id='outtext'>A Basic Panel</div>
+
+        </div>
+    </div>
+
 
 </body>
 </html>
